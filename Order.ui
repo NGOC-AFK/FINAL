@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1195</width>
+    <height>601</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="MinimumExpanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>240</y>
+      <width>47</width>
+      <height>13</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>0</y>
+      <width>1441</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>1</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Users/Hong Ngoc/Downloads/nâu.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>261</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../Users/Hong Ngoc/Downloads/nâu bàn.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>20</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; font-style:italic; color:#414130;&quot;&gt;Chọn bàn nào!!!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>160</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="leftMargin">
+      <number>9</number>
+     </property>
+     <property name="topMargin">
+      <number>9</number>
+     </property>
+     <property name="rightMargin">
+      <number>9</number>
+     </property>
+     <item row="8" column="0">
+      <widget class="QPushButton" name="btn_ban8">
+       <property name="styleSheet">
+        <string notr="true">background-color: green;</string>
+       </property>
+       <property name="text">
+        <string>Bàn 8</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QPushButton" name="btn_take">
+       <property name="styleSheet">
+        <string notr="true">background-color: pink;</string>
+       </property>
+       <property name="text">
+        <string>Take away</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Users/Hong Ngoc/Downloads/1221685_cafe_coffee_drink_frappe_beverage_icon (1).png</normaloff>../../Users/Hong Ngoc/Downloads/1221685_cafe_coffee_drink_frappe_beverage_icon (1).png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QPushButton" name="btn_ban1">
+       <property name="styleSheet">
+        <string notr="true">background-color: green;</string>
+       </property>
+       <property name="text">
+        <string>Bàn 1</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="btn_ban7">
+       <property name="styleSheet">
+        <string notr="true">background-color: green;</string>
+       </property>
+       <property name="text">
+        <string>Bàn 7</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="btn_ban2">
+       <property name="styleSheet">
+        <string notr="true">background-color: green;</string>
+       </property>
+       <property name="text">
+        <string>Bàn 2</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="btn_ban3">
+       <property name="styleSheet">
+        <string notr="true">background-color: green;</string>
+       </property>
+       <property name="text">
+        <string>Bàn 3</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="btn_ban5">
+       <property name="styleSheet">
+        <string notr="true">background-color: green;</string>
+       </property>
+       <property name="text">
+        <string>Bàn 5</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QPushButton" name="btn_ban6">
+       <property name="styleSheet">
+        <string notr="true">background-color: green;</string>
+       </property>
+       <property name="text">
+        <string>Bàn 6</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="btn_ban4">
+       <property name="styleSheet">
+        <string notr="true">background-color: green;</string>
+       </property>
+       <property name="text">
+        <string>Bàn 4</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</normaloff>../../Users/Hong Ngoc/Downloads/4879888_cafe_coffee_cup_cup1_hot_icon.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QTableWidget" name="mainmenu">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>60</y>
+      <width>481</width>
+      <height>481</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>240</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Tên món</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Giá tiền</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QPushButton" name="btn_dthu">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>490</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: gray;</string>
+    </property>
+    <property name="text">
+     <string>Doanh thu</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_menufix">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>530</y>
+      <width>121</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: gray;</string>
+    </property>
+    <property name="text">
+     <string>Chỉnh sửa menu</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tblorder">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>50</y>
+      <width>481</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>160</number>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>Tên món</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Số lượng</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Thành tiền</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>880</x>
+      <y>400</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#a7a7a7;&quot;&gt;Giảm giá:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>430</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#939393;&quot;&gt;Tổng tiền: &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_delete">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>480</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: pink;</string>
+    </property>
+    <property name="text">
+     <string>Xóa</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_save">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>480</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: pink;</string>
+    </property>
+    <property name="text">
+     <string>Lưu hóa đơn</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_discount">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>400</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_total">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>440</y>
+      <width>211</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="category">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>30</y>
+      <width>241</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>30</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Danh mục</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="hienthiNV">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>10</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_dangxuat">
+    <property name="geometry">
+     <rect>
+      <x>1090</x>
+      <y>10</y>
+      <width>81</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Đăng xuất</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1195</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

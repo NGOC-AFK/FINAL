@@ -1,0 +1,37 @@
+[
+    {
+        "name": "nước dừa",
+        "price": 15000.0,
+        "category": "NƯỚC ÉP"
+    },
+    {
+        "name": "Cà phê đen",
+        "price": 25000,
+        "category": "CAFE"
+    },
+    {
+        "name": "Trà đào",
+        "price": 30000,
+        "category": "TRÀ SỮA"
+    },
+    {
+        "name": "Nước ép cam",
+        "price": 40000,
+        "category": "NƯỚC ÉP"
+    },
+    {
+        "name": "bạc xỉu",
+        "price": 25000.0,
+        "category": "CAFE"
+    },
+    {
+        "name": "nước ép táo thơm",
+        "price": 15000.0,
+        "category": "NƯỚC ÉP"
+    },
+    {
+        "name": "Matcha Latte",
+        "price": 25000.0,
+        "category": "TRÀ SỮA"
+    }
+]
